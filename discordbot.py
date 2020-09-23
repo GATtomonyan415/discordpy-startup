@@ -33,7 +33,7 @@ async def temp_1(ctx):
 
 @bot.command()
 async def temp_2(ctx):
-    await ctx.send('【餓鬼の名前】【日時】\n【餓鬼の年齢】\n【罪状】\n【場所】\n【リンク】')
+    await ctx.send('【餓鬼の名前】\n【日時】\n【餓鬼の年齢】\n【罪状】\n【場所】\n【リンク】')
 
 @bot.command()
 async def uragiri(ctx):
