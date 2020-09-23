@@ -36,21 +36,6 @@ async def temp_2(ctx):
     await ctx.send('【餓鬼の名前】【日時】\n【餓鬼の年齢】\n【罪状】\n【場所】\n【リンク】')
 
 @bot.command()
-async def help_ho(ctx):
-    await ctx.send('【報告書の書き方】
-①まず、「餓鬼の名前」には、餓鬼のID(FortniteIDやEPICID、NNIDなどなど、ゲームのID）を記載して下さい。
-
-②「日時」には、その餓鬼に出会った曜日を書きます。
-
-③「年齢」には、餓鬼の年齢を記載します。（分からなかったら書かなくても良い）
-
-④「罪状」には、餓鬼がどんな悪い事をしたかを書きます。
-
-⑤「場所」には、餓鬼に出会ったゲームの名前や、何のカテゴリーか など、細かく書いてください。例:マイクラWiiU バトルミニゲーム
-
-⑥「リンク」は、その餓鬼のYouTubeアカウントや、Twitterアカウントなどを貼ってください。(餓鬼がYouTubeをやってない場合などは記載する必要がない。')
-
-@bot.command()
 async def uragiri(ctx):
     await ctx.send('裏切りは正義！')
 
